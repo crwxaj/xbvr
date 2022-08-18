@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/getlantern/systray"
+	"fyne.io/systray"
 	"github.com/marcsauter/single"
 	"github.com/skratchdot/open-golang/open"
 	"github.com/xbapps/xbvr/pkg/common"

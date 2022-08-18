@@ -3,6 +3,7 @@ module github.com/xbapps/xbvr
 go 1.19
 
 require (
+	fyne.io/systray v1.10.0
 	github.com/ProtonMail/go-appdir v1.1.0
 	github.com/PuerkitoBio/goquery v1.8.0
 	github.com/abbot/go-http-auth v0.4.0
@@ -19,7 +20,6 @@ require (
 	github.com/emicklei/go-restful v2.16.0+incompatible
 	github.com/emicklei/go-restful-openapi v1.4.1
 	github.com/gammazero/nexus/v3 v3.0.4
-	github.com/getlantern/systray v1.2.1
 	github.com/go-openapi/spec v0.20.7
 	github.com/go-test/deep v1.0.8
 	github.com/gocolly/colly v1.2.0
@@ -66,6 +66,11 @@ require (
 )
 
 require (
+	github.com/godbus/dbus/v5 v5.0.4 // indirect
+	github.com/tevino/abool v1.2.0 // indirect
+)
+
+require (
 	github.com/RoaringBitmap/roaring v0.4.23 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/antchfx/htmlquery v1.0.0 // indirect
@@ -85,18 +90,11 @@ require (
 	github.com/couchbase/vellum v1.0.2 // indirect
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/fcjr/aia-transport-go v1.2.2 // indirect
-	github.com/getlantern/context v0.0.0-20190109183933-c447772a6520 // indirect
-	github.com/getlantern/errors v0.0.0-20190325191628-abdb3e3e36f7 // indirect
-	github.com/getlantern/golog v0.0.0-20190830074920-4ef2e798c2d7 // indirect
-	github.com/getlantern/hex v0.0.0-20190417191902-c6586a6fe0b7 // indirect
-	github.com/getlantern/hidden v0.0.0-20190325191715-f02dbb02be55 // indirect
-	github.com/getlantern/ops v0.0.0-20190325191751-d70cb0d6f85f // indirect
 	github.com/glycerine/go-unsnap-stream v0.0.0-20181221182339-f9677308dec2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/jsonreference v0.20.0 // indirect
 	github.com/go-openapi/swag v0.19.15 // indirect
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
@@ -116,7 +114,6 @@ require (
 	github.com/mschoch/smat v0.2.0 // indirect
 	github.com/muesli/smartcrop v0.3.0 // indirect
 	github.com/nwaples/rardecode v1.0.0 // indirect
-	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/pierrec/lz4 v2.0.5+incompatible // indirect
 	github.com/prometheus/client_golang v1.11.0 // indirect
