@@ -24,7 +24,7 @@ builds:
 
 - id: xbvr-mac-m1
   binary: xbvr
-#  main: pkg/tray/main.go
+  main: pkg/tray/main.go
   flags:
     - -tags=json1
   ldflags:
@@ -37,8 +37,8 @@ builds:
     - darwin
   goarch:
     - arm64
-#  hooks:
-#    post: ./appify.sh -s ./dist/xbvr-mac_darwin_amd64/XBVR.app/Contents/MacOS/XBVR -i ./ui/public/icons/xbvr-mac.icns -n XBVR
+  hooks:
+    post: ./appify.sh -s ./dist/xbvr-mac-m1_darwin_arm64/XBVR.app/Contents/MacOS/XBVR -i ./ui/public/icons/xbvr-mac.icns -n XBVR
 
 - id: xbvr-windows
   binary: xbvr
